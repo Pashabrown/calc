@@ -39,7 +39,7 @@ func main() {
 		var result int
 
 		fmt.Scanf("%d %s %d", &num1, &operator, &num2)
-		//fmt.Println(num2, operator, num1)
+		
 
 		switch operator {
 		case "+":
@@ -59,7 +59,6 @@ func main() {
 		}
 
 		fmt.Println(result)
-		//sum := Add(3, 2)
-		//fmt.Println(sum)
+		
 	}
 }
